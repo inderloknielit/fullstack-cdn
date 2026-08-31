@@ -1,0 +1,1095 @@
+{
+
+  "version": 1,
+  "course_info": {
+    "title": "Full Stack Development Course",
+    "overview": "A 390-hour, industry-oriented Full Stack Development course taking learners from foundational web concepts through complete application development using HTML, CSS, JavaScript, Bootstrap, Python, MySQL, and Django. Learners integrate all seven technologies into one deployed capstone project.",
+    "objectives": [
+      "Build semantic, accessible HTML websites and responsive CSS/Bootstrap layouts.",
+      "Develop interactive frontend behavior using modern JavaScript.",
+      "Program backend application logic using Python and object-oriented design.",
+      "Design and query relational databases using MySQL.",
+      "Develop complete, database-driven web applications using Django (MVT, ORM, auth, admin).",
+      "Integrate frontend, backend, and database into one working Full Stack application.",
+      "Apply core web security practices (CSRF, XSS, SQL injection prevention, secure configuration).",
+      "Deploy a Full Stack application to a production-ready environment."
+    ],
+    "target_group": [
+      "Students",
+      "Graduates",
+      "Diploma holders",
+      "IT beginners",
+      "Candidates seeking entry-level Full Stack Developer roles"
+    ],
+    "entry_requirements": [
+      "Basic computer literacy",
+      "Basic understanding of using a web browser and file system",
+      "No prior programming experience required"
+    ],
+    "duration_hours": 390,
+    "course_level": "Beginner to Intermediate",
+    "training_approach": {
+      "theory_percent": 30,
+      "practical_percent": 70,
+      "components": [
+        "Module-wise coding exercises",
+        "Lab assignments",
+        "Mini projects",
+        "Capstone Full Stack Project",
+        "Debugging and problem-solving exercises",
+        "Industry-oriented development practices"
+      ]
+    }
+  },
+  "hour_distribution": [
+    {
+      "module": "Module 1",
+      "topic": "HTML",
+      "theory_hours": 8,
+      "practical_hours": 17,
+      "total_hours": 25
+    },
+    {
+      "module": "Module 2",
+      "topic": "CSS",
+      "theory_hours": 10,
+      "practical_hours": 20,
+      "total_hours": 30
+    },
+    {
+      "module": "Module 3",
+      "topic": "JavaScript",
+      "theory_hours": 18,
+      "practical_hours": 42,
+      "total_hours": 60
+    },
+    {
+      "module": "Module 4",
+      "topic": "Bootstrap",
+      "theory_hours": 8,
+      "practical_hours": 17,
+      "total_hours": 25
+    },
+    {
+      "module": "Module 5",
+      "topic": "Python",
+      "theory_hours": 18,
+      "practical_hours": 42,
+      "total_hours": 60
+    },
+    {
+      "module": "Module 6",
+      "topic": "MySQL",
+      "theory_hours": 15,
+      "practical_hours": 35,
+      "total_hours": 50
+    },
+    {
+      "module": "Module 7",
+      "topic": "Django",
+      "theory_hours": 20,
+      "practical_hours": 50,
+      "total_hours": 70
+    },
+    {
+      "module": "—",
+      "topic": "Capstone Full Stack Project",
+      "theory_hours": 0,
+      "practical_hours": 40,
+      "total_hours": 40
+    },
+    {
+      "module": "—",
+      "topic": "Assessment & Evaluation (module tests, mid-term, final, viva)",
+      "theory_hours": 10,
+      "practical_hours": 20,
+      "total_hours": 30
+    }
+  ],
+  "hour_distribution_summary": {
+    "total_hours": 390,
+    "total_theory_hours": 107,
+    "total_practical_hours": 283
+  },
+  "units": [
+    {
+      "id": "unit_01",
+      "title": "Module 1: HTML",
+      "description": "From the basics of the web to semantic, accessible, SEO-friendly HTML5 markup.",
+      "modules": [
+        {
+          "id": "u1_m1",
+          "title": "HTML Fundamentals & Structure",
+          "description": "How the web works, and the building blocks of every HTML page.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u1_m1_l1",
+              "title": "Introduction to Web Development",
+              "cards": [
+                {
+                  "id": "u1_m1_l1_c1",
+                  "title": "How the Web Works",
+                  "body": "A website is a request-response conversation: the browser (client) sends a request to a server, which returns HTML/CSS/JS. Frontend is what the user sees and interacts with; backend handles logic, data, and storage. Static websites show the same content to everyone; dynamic websites generate content per user/request (e.g. via Django + MySQL)."
+                },
+                {
+                  "id": "u1_m1_l1_c2",
+                  "title": "Full Stack Development",
+                  "body": "A Full Stack Developer works across the entire chain: HTML/CSS/JS/Bootstrap for the frontend, Python/Django for backend logic, and MySQL for data storage. This course builds each layer in order, then integrates them into one working application."
+                }
+              ],
+              "quiz": {
+                "question": "What is the main difference between a static and a dynamic website?",
+                "options": [
+                  "Static sites use images, dynamic sites don't",
+                  "A static site shows the same content to everyone; a dynamic site generates content per request/user",
+                  "Dynamic sites don't need a server",
+                  "There is no real difference"
+                ],
+                "correct_index": 1,
+                "explanation": "Static sites serve fixed HTML files; dynamic sites (like a Django app) generate HTML on the fly based on data, logic, and the specific user request."
+              }
+            },
+            {
+              "id": "u1_m1_l2",
+              "title": "HTML Structure, Text & Forms",
+              "cards": [
+                {
+                  "id": "u1_m1_l2_c1",
+                  "title": "Document Structure & Text",
+                  "body": "Every HTML5 page starts with <!DOCTYPE html>, followed by <html>, <head> (metadata, title) and <body> (visible content). Headings (1-6), paragraphs (<p>), and text formatting tags (<strong>, <em>, <mark>) structure and emphasize content. Lists (<ul>, <ol>, <dl>) and tables (<table>, <tr>, <td>, colspan/rowspan) organize grouped and tabular data."
+                },
+                {
+                  "id": "u1_m1_l2_c2",
+                  "title": "Forms & Input",
+                  "body": "The <form> element collects user input via <input> (text, email, password, number, date, radio, checkbox, file), <select> dropdowns, and <textarea>. The 'required' attribute and input types (like type='email') trigger built-in browser validation before submission — the foundation for every registration and login page built later in this course."
+                }
+              ],
+              "quiz": {
+                "question": "Which HTML5 element must appear as the very first line of every HTML document?",
+                "options": [
+                  "<html>",
+                  "<!DOCTYPE html>",
+                  "<head>",
+                  "<body>"
+                ],
+                "correct_index": 1,
+                "explanation": "The DOCTYPE declaration tells the browser to render the page using modern HTML5 standards mode."
+              }
+            }
+          ]
+        },
+        {
+          "id": "u1_m2",
+          "title": "Semantic HTML & Advanced Features",
+          "description": "Writing meaningful, accessible, SEO-ready markup and using HTML5 APIs.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u1_m2_l1",
+              "title": "Semantic Elements & Multimedia",
+              "cards": [
+                {
+                  "id": "u1_m2_l1_c1",
+                  "title": "Semantic HTML5",
+                  "body": "Semantic tags describe the meaning of content, not just its appearance: <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>. They improve accessibility (screen readers understand page structure) and SEO (search engines weigh semantic structure), replacing generic <div> soup with meaningful markup."
+                },
+                {
+                  "id": "u1_m2_l1_c2",
+                  "title": "Images, Audio & Video",
+                  "body": "<img> displays images (with 'alt' text required for accessibility); <audio> and <video> embed media with native browser controls; <iframe> embeds external content like a YouTube video or Google Map. Responsive images use the 'srcset' attribute to serve different image sizes per device."
+                }
+              ],
+              "quiz": {
+                "question": "Why are semantic elements like <header> and <article> preferred over generic <div> tags?",
+                "options": [
+                  "They load faster",
+                  "They improve accessibility and SEO by conveying the actual meaning/structure of content",
+                  "They require less CSS",
+                  "They are the only tags supported by modern browsers"
+                ],
+                "correct_index": 1,
+                "explanation": "Semantic tags give screen readers and search engines real structural meaning, unlike a generic <div> which conveys nothing about its purpose."
+              }
+            },
+            {
+              "id": "u1_m2_l2",
+              "title": "HTML5 APIs & SEO",
+              "cards": [
+                {
+                  "id": "u1_m2_l2_c1",
+                  "title": "Local & Session Storage",
+                  "body": "Local Storage persists key-value data in the browser indefinitely (until cleared); Session Storage persists only for the current browser tab session. Both let JavaScript save small amounts of client-side data (like a shopping cart or theme preference) without needing a server round-trip."
+                },
+                {
+                  "id": "u1_m2_l2_c2",
+                  "title": "SEO & Meta Tags",
+                  "body": "The <meta name='description'> tag summarizes a page for search results; <meta name='viewport'> enables responsive scaling on mobile. Open Graph tags (og:title, og:image) control how a page appears when shared on social media. Clean semantic HTML plus proper meta tags forms the foundation of SEO-friendly pages."
+                }
+              ],
+              "quiz": {
+                "question": "What is the key difference between Local Storage and Session Storage?",
+                "options": [
+                  "They are identical",
+                  "Local Storage persists indefinitely; Session Storage clears when the tab is closed",
+                  "Session Storage is faster",
+                  "Local Storage only works on mobile"
+                ],
+                "correct_index": 1,
+                "explanation": "Local Storage data survives browser restarts until explicitly cleared, while Session Storage is wiped as soon as the browser tab closes."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_02",
+      "title": "Module 2: CSS",
+      "description": "Styling, layout, and fully responsive design — from selectors to Flexbox, Grid, and animation.",
+      "modules": [
+        {
+          "id": "u2_m1",
+          "title": "CSS Fundamentals & Styling",
+          "description": "Selectors, the box model, and the core properties that style every element.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u2_m1_l1",
+              "title": "Selectors, Cascade & the Box Model",
+              "cards": [
+                {
+                  "id": "u2_m1_l1_c1",
+                  "title": "Selectors & Specificity",
+                  "body": "CSS can target elements by tag (p), class (.card), ID (#header), attribute ([type='text']), or state (:hover, ::before). When rules conflict, specificity decides the winner: inline styles beat IDs, IDs beat classes, classes beat element selectors — and rules written later override earlier ones of equal specificity (the 'cascade')."
+                },
+                {
+                  "id": "u2_m1_l1_c2",
+                  "title": "The Box Model",
+                  "body": "Every element is a box made of content, padding (inner spacing), border, and margin (outer spacing). 'box-sizing: border-box' makes width/height include padding and border, avoiding the classic layout-breaking surprise of 'content-box' (the CSS default)."
+                }
+              ],
+              "quiz": {
+                "question": "In CSS specificity, which selector type generally wins over the others?",
+                "options": [
+                  "Element selectors (like 'p')",
+                  "Class selectors (like '.card')",
+                  "ID selectors (like '#header')",
+                  "Universal selector ('*')"
+                ],
+                "correct_index": 2,
+                "explanation": "ID selectors carry higher specificity than classes or element selectors, so an ID-based rule overrides a conflicting class-based rule."
+              }
+            },
+            {
+              "id": "u2_m1_l2",
+              "title": "Typography, Backgrounds & Effects",
+              "cards": [
+                {
+                  "id": "u2_m1_l2_c1",
+                  "title": "Typography & Backgrounds",
+                  "body": "Font properties (font-family, font-size, font-weight), text-align, line-height and letter-spacing control readability. background-color, background-image, and background-size (e.g. 'cover') style an element's backdrop, while border-radius rounds corners for cards and buttons."
+                },
+                {
+                  "id": "u2_m1_l2_c2",
+                  "title": "Shadows & Opacity",
+                  "body": "box-shadow adds depth to cards and buttons (e.g. '0 4px 6px rgba(0,0,0,0.1)'); text-shadow does the same for text. 'opacity' fades an entire element (including children), while rgba()/hsla() color values fade only the color itself, keeping child content fully visible."
+                }
+              ],
+              "quiz": {
+                "question": "What is the key difference between using 'opacity: 0.5' versus a color with 0.5 alpha (like rgba)?",
+                "options": [
+                  "They are identical in every case",
+                  "opacity fades the entire element including its children; alpha-based color only fades that specific color value",
+                  "Alpha values only work on text",
+                  "opacity cannot be used on images"
+                ],
+                "correct_index": 1,
+                "explanation": "opacity applies transparency to the whole element and everything inside it, whereas an rgba() background only makes that background color translucent, leaving child text fully opaque."
+              }
+            }
+          ]
+        },
+        {
+          "id": "u2_m2",
+          "title": "Modern Layout & Responsive Design",
+          "description": "Flexbox, Grid, media queries, and mobile-first design principles.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u2_m2_l1",
+              "title": "Flexbox & CSS Grid",
+              "cards": [
+                {
+                  "id": "u2_m2_l1_c1",
+                  "title": "Flexbox for 1D Layouts",
+                  "body": "'display: flex' turns a container into a flexible row or column. 'justify-content' aligns items along the main axis (e.g. space-between), 'align-items' aligns along the cross axis, and 'flex-wrap' allows items to wrap onto new lines — ideal for navbars, button groups, and card rows."
+                },
+                {
+                  "id": "u2_m2_l1_c2",
+                  "title": "CSS Grid for 2D Layouts",
+                  "body": "'display: grid' with 'grid-template-columns'/'grid-template-rows' defines a true 2D layout grid, letting elements be placed precisely by row and column. 'gap' controls spacing between grid cells. Grid excels at whole-page layouts; Flexbox excels at aligning items within one row or column."
+                }
+              ],
+              "quiz": {
+                "question": "When would CSS Grid generally be preferred over Flexbox?",
+                "options": [
+                  "When aligning items only in a single row",
+                  "When building a true two-dimensional layout with both rows and columns",
+                  "Grid and Flexbox are always interchangeable",
+                  "Grid only works on mobile devices"
+                ],
+                "correct_index": 1,
+                "explanation": "Grid is designed for two-dimensional layouts (rows AND columns simultaneously), while Flexbox is optimized for one-dimensional alignment along a single row or column."
+              }
+            },
+            {
+              "id": "u2_m2_l2",
+              "title": "Responsive Design & Animation",
+              "cards": [
+                {
+                  "id": "u2_m2_l2_c1",
+                  "title": "Media Queries & Mobile-First",
+                  "body": "Media queries apply CSS conditionally based on screen width: '@media (max-width: 768px) { ... }' targets tablets and below. Mobile-first design writes base styles for small screens first, then adds complexity via 'min-width' media queries for larger screens — the modern standard approach for responsive sites."
+                },
+                {
+                  "id": "u2_m2_l2_c2",
+                  "title": "Transitions & Animations",
+                  "body": "'transition: all 0.3s ease' smoothly animates property changes (like a button's hover color). '@keyframes' defines multi-step animations (e.g. a loading spinner) that run via the 'animation' property. CSS variables (--primary-color: #007bff) let a whole theme be updated by changing one value."
+                }
+              ],
+              "quiz": {
+                "question": "What does 'mobile-first' design mean in practice?",
+                "options": [
+                  "Only designing for mobile devices",
+                  "Writing base CSS for small screens first, then adding complexity for larger screens via min-width media queries",
+                  "Testing only on iPhones",
+                  "Avoiding media queries entirely"
+                ],
+                "correct_index": 1,
+                "explanation": "Mobile-first starts with the simplest, smallest-screen layout as the default, then progressively enhances it for larger viewports — generally producing cleaner, more maintainable CSS."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_03",
+      "title": "Module 3: JavaScript",
+      "description": "From variables and functions to the DOM, asynchronous programming, and consuming REST APIs.",
+      "modules": [
+        {
+          "id": "u3_m1",
+          "title": "JavaScript Fundamentals",
+          "description": "Variables, control flow, functions, arrays, and objects.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u3_m1_l1",
+              "title": "Variables, Types & Control Flow",
+              "cards": [
+                {
+                  "id": "u3_m1_l1_c1",
+                  "title": "Variables & Data Types",
+                  "body": "'let' and 'const' (block-scoped) have replaced the older 'var' (function-scoped) in modern JavaScript — 'const' for values that never get reassigned, 'let' for values that do. Core data types: string, number, boolean, null, undefined, object, and array."
+                },
+                {
+                  "id": "u3_m1_l1_c2",
+                  "title": "Conditionals & Loops",
+                  "body": "if/else and switch handle branching logic. 'for' loops iterate a known number of times; 'while'/'do-while' loop until a condition changes. 'break' exits a loop early, 'continue' skips to the next iteration — the same control-flow logic used across every programming language in this course."
+                }
+              ],
+              "quiz": {
+                "question": "Why is 'const' generally preferred over 'var' for declaring variables in modern JavaScript?",
+                "options": [
+                  "const runs faster in every case",
+                  "const is block-scoped and prevents accidental reassignment, while var has confusing function-level scoping",
+                  "var was removed from JavaScript entirely",
+                  "There is no practical difference"
+                ],
+                "correct_index": 1,
+                "explanation": "const (and let) are block-scoped, matching how most languages behave, and const specifically prevents a variable from being accidentally reassigned later."
+              }
+            },
+            {
+              "id": "u3_m1_l2",
+              "title": "Functions, Arrays & Objects",
+              "cards": [
+                {
+                  "id": "u3_m1_l2_c1",
+                  "title": "Functions & Arrow Functions",
+                  "body": "Functions can be declared ('function greet() {}'), expressed ('const greet = function() {}'), or written as arrow functions ('const greet = () => {}'). Arrow functions have concise syntax and don't rebind 'this', making them the default choice in modern code, especially inside array methods like .map()."
+                },
+                {
+                  "id": "u3_m1_l2_c2",
+                  "title": "Arrays & Objects",
+                  "body": "Array methods like .map() (transform each item), .filter() (keep matching items), and .reduce() (combine into one value) replace manual loops for common data transformations. Objects store key-value pairs ({name: 'Alice', age: 25}); destructuring ('const {name} = user') and the spread operator ('{...user, age: 26}') make working with them concise."
+                }
+              ],
+              "quiz": {
+                "question": "What does the array method .filter() do?",
+                "options": [
+                  "Sorts the array alphabetically",
+                  "Returns a new array containing only elements that match a given condition",
+                  "Deletes the original array",
+                  "Combines all elements into a single value"
+                ],
+                "correct_index": 1,
+                "explanation": ".filter() runs a test function on each element and returns a new array containing only the elements that passed the test."
+              }
+            }
+          ]
+        },
+        {
+          "id": "u3_m2",
+          "title": "DOM & Modern JavaScript",
+          "description": "Manipulating the page, handling events, and working with asynchronous data.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u3_m2_l1",
+              "title": "DOM Manipulation & Events",
+              "cards": [
+                {
+                  "id": "u3_m2_l1_c1",
+                  "title": "Selecting & Modifying the DOM",
+                  "body": "'document.querySelector()' selects the first matching element; 'querySelectorAll()' selects all matches. Once selected, '.textContent', '.innerHTML', and '.classList.add()/.remove()' let JavaScript read and change page content and styling dynamically, without a page reload."
+                },
+                {
+                  "id": "u3_m2_l1_c2",
+                  "title": "Event Handling",
+                  "body": "'element.addEventListener('click', handlerFunction)' runs code in response to user interaction — clicks, form submissions, key presses. Form validation commonly listens for the 'submit' event, calls 'event.preventDefault()' to stop the default page reload, then checks input values before allowing submission."
+                }
+              ],
+              "quiz": {
+                "question": "What does 'event.preventDefault()' do when handling a form's submit event?",
+                "options": [
+                  "It deletes the form entirely",
+                  "It stops the browser's default action (like reloading the page), letting custom JavaScript validation run first",
+                  "It submits the form twice",
+                  "It has no practical effect"
+                ],
+                "correct_index": 1,
+                "explanation": "preventDefault() stops the browser's built-in behavior for that event, giving your JavaScript code control — essential for client-side form validation before a real submission."
+              }
+            },
+            {
+              "id": "u3_m2_l2",
+              "title": "Asynchronous JavaScript & APIs",
+              "cards": [
+                {
+                  "id": "u3_m2_l2_c1",
+                  "title": "Promises & async/await",
+                  "body": "A Promise represents a value that will be available later (like data from a server). '.then()' handles success, '.catch()' handles errors. 'async/await' is modern syntactic sugar over Promises, letting asynchronous code read top-to-bottom like synchronous code: 'const data = await fetch(url)'."
+                },
+                {
+                  "id": "u3_m2_l2_c2",
+                  "title": "The Fetch API & REST",
+                  "body": "'fetch(url)' sends an HTTP request to a server (like a Django REST endpoint) and returns a Promise resolving to the response. '.json()' parses the JSON body into a JavaScript object. This is exactly how a frontend consumes data from a Django backend — the pattern used throughout this course's Full Stack integration."
+                }
+              ],
+              "quiz": {
+                "question": "What does the Fetch API's '.json()' method do?",
+                "options": [
+                  "Converts the response into a downloadable file",
+                  "Parses the response body from JSON text into a usable JavaScript object",
+                  "Sends a new request to the server",
+                  "Deletes the fetched data"
+                ],
+                "correct_index": 1,
+                "explanation": "Server responses arrive as raw JSON text; '.json()' parses that text into an actual JavaScript object/array your code can work with directly."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_04",
+      "title": "Module 4: Bootstrap",
+      "description": "Building responsive interfaces fast with Bootstrap's grid system, components, and utilities.",
+      "modules": [
+        {
+          "id": "u4_m1",
+          "title": "Bootstrap Grid & Components",
+          "description": "The 12-column responsive grid and ready-made UI components.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u4_m1_l1",
+              "title": "The Grid System",
+              "cards": [
+                {
+                  "id": "u4_m1_l1_c1",
+                  "title": "Containers, Rows & Columns",
+                  "body": "Bootstrap's layout is built on a 12-column grid: a '.container' wraps content, '.row' groups columns, and '.col-*' classes define column width (e.g. 'col-md-6' = half-width on medium screens and up). Breakpoints (sm, md, lg, xl, xxl) let column widths change per screen size without writing custom media queries."
+                },
+                {
+                  "id": "u4_m1_l1_c2",
+                  "title": "Responsive Columns in Practice",
+                  "body": "'col-12 col-md-6 col-lg-4' means: full width on mobile, half width on tablets, one-third width on desktops — all from one line of HTML. This single pattern replaces most of the custom responsive CSS that would otherwise need to be hand-written."
+                }
+              ],
+              "quiz": {
+                "question": "How many columns does Bootstrap's grid system divide a row into?",
+                "options": [
+                  "6",
+                  "10",
+                  "12",
+                  "16"
+                ],
+                "correct_index": 2,
+                "explanation": "Bootstrap's grid is based on 12 columns per row, letting designers combine col-* classes (like 4+4+4 or 6+6) to build flexible layouts."
+              }
+            },
+            {
+              "id": "u4_m1_l2",
+              "title": "Core Components",
+              "cards": [
+                {
+                  "id": "u4_m1_l2_c1",
+                  "title": "Navbar, Cards & Buttons",
+                  "body": "The Navbar component (with 'navbar-toggler') gives a fully responsive, collapsible navigation menu out of the box. Cards ('.card', '.card-body', '.card-title') provide a consistent container for content blocks like product listings. Button classes ('.btn .btn-primary') apply consistent, theme-able styling instantly."
+                },
+                {
+                  "id": "u4_m1_l2_c2",
+                  "title": "Modals, Alerts & Carousel",
+                  "body": "Modals ('.modal') display pop-up dialogs triggered by 'data-bs-toggle'. Alerts ('.alert .alert-danger') show dismissible status messages. The Carousel component cycles through images/content automatically — all powered by Bootstrap's bundled JavaScript, requiring zero custom JS to function."
+                }
+              ],
+              "quiz": {
+                "question": "What attribute is typically used to trigger a Bootstrap modal from a button?",
+                "options": [
+                  "onclick='openModal()'",
+                  "data-bs-toggle='modal'",
+                  "href='#modal'",
+                  "modal-open='true'"
+                ],
+                "correct_index": 1,
+                "explanation": "Bootstrap components use 'data-bs-*' attributes (like data-bs-toggle='modal') to wire up interactive behavior declaratively, without writing custom JavaScript."
+              }
+            }
+          ]
+        },
+        {
+          "id": "u4_m2",
+          "title": "Bootstrap Utilities & Forms",
+          "description": "Fine-grained utility classes and Bootstrap's form system.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u4_m2_l1",
+              "title": "Utility Classes",
+              "cards": [
+                {
+                  "id": "u4_m2_l1_c1",
+                  "title": "Spacing & Display Utilities",
+                  "body": "Spacing utilities follow a pattern: 'mt-3' (margin-top), 'p-4' (padding all sides), 'mb-2' (margin-bottom) — numbers 0-5 represent increasing spacing scale. Display utilities ('d-flex', 'd-none', 'd-md-block') control an element's display property, including responsively per breakpoint."
+                },
+                {
+                  "id": "u4_m2_l1_c2",
+                  "title": "Flexbox & Text Utilities",
+                  "body": "Bootstrap exposes Flexbox directly as classes: 'd-flex justify-content-between align-items-center' builds a flex row without custom CSS. Text utilities ('text-center', 'text-primary', 'fw-bold') handle common styling needs instantly, reducing the amount of custom CSS a project needs to write."
+                }
+              ],
+              "quiz": {
+                "question": "In Bootstrap's spacing utility naming (like 'mt-3'), what does the 'mt' stand for?",
+                "options": [
+                  "Maximum text",
+                  "Margin-top",
+                  "Modal trigger",
+                  "Media type"
+                ],
+                "correct_index": 1,
+                "explanation": "Bootstrap spacing classes follow a consistent pattern: m/p for margin/padding, then t/b/s/e/x/y for the side, followed by a size number."
+              }
+            },
+            {
+              "id": "u4_m2_l2",
+              "title": "Forms & Validation",
+              "cards": [
+                {
+                  "id": "u4_m2_l2_c1",
+                  "title": "Form Controls",
+                  "body": "'.form-control' styles text inputs consistently; '.form-select' styles dropdowns; '.form-check' handles checkboxes and radios with proper spacing and alignment. Input groups ('.input-group') combine an input with an icon or button, like a search box with an attached search icon."
+                },
+                {
+                  "id": "u4_m2_l2_c2",
+                  "title": "Validation Styling",
+                  "body": "Adding the 'was-validated' class to a form (usually via JavaScript after a failed submit) triggers Bootstrap's built-in valid/invalid styling — green checkmarks and red borders — driven by the same HTML5 'required' and pattern validation covered in the HTML module, now with polished visual feedback."
+                }
+              ],
+              "quiz": {
+                "question": "What Bootstrap class styles a standard text input consistently across the framework?",
+                "options": [
+                  ".form-control",
+                  ".btn-primary",
+                  ".card-body",
+                  ".navbar-brand"
+                ],
+                "correct_index": 0,
+                "explanation": "'.form-control' is the standard class applied to text inputs, textareas, and similar controls to give them Bootstrap's consistent styling."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_05",
+      "title": "Module 5: Python",
+      "description": "Python from first principles through object-oriented programming and database connectivity — built for backend web development.",
+      "modules": [
+        {
+          "id": "u5_m1",
+          "title": "Python Fundamentals",
+          "description": "Syntax, data types, control flow, functions, and core data structures.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u5_m1_l1",
+              "title": "Syntax, Data Types & Control Flow",
+              "cards": [
+                {
+                  "id": "u5_m1_l1_c1",
+                  "title": "Python Syntax & Variables",
+                  "body": "Python uses indentation (not curly braces) to define code blocks, making readability part of the language itself. Variables need no type declaration ('name = \"Alice\"', 'age = 25') — Python infers the type automatically. Core types: str, int, float, bool, and the special value None."
+                },
+                {
+                  "id": "u5_m1_l1_c2",
+                  "title": "Control Flow",
+                  "body": "if/elif/else handles branching; 'for item in list:' iterates directly over a collection (no manual index counting needed); 'while' loops until a condition becomes false. This same control-flow logic mirrors JavaScript's, but with Python's cleaner, indentation-based syntax."
+                }
+              ],
+              "quiz": {
+                "question": "How does Python define the boundaries of a code block (like inside an if statement)?",
+                "options": [
+                  "Curly braces {}",
+                  "Semicolons",
+                  "Indentation",
+                  "The word 'end'"
+                ],
+                "correct_index": 2,
+                "explanation": "Python uses consistent indentation (not braces) to define code blocks — this is a core, enforced part of the language's syntax."
+              }
+            },
+            {
+              "id": "u5_m1_l2",
+              "title": "Functions & Data Structures",
+              "cards": [
+                {
+                  "id": "u5_m1_l2_c1",
+                  "title": "Functions",
+                  "body": "'def greet(name):' defines a function; 'return' sends back a value. Default arguments ('def greet(name=\"Guest\"):') and keyword arguments ('greet(name=\"Alice\")') add flexibility. Lambda functions ('lambda x: x * 2') create small anonymous functions inline, often used with sorting or filtering."
+                },
+                {
+                  "id": "u5_m1_l2_c2",
+                  "title": "Lists, Tuples, Sets & Dictionaries",
+                  "body": "Lists ([1,2,3]) are ordered and mutable. Tuples ((1,2,3)) are ordered but immutable. Sets ({1,2,3}) hold only unique values with no order. Dictionaries ({'name': 'Alice'}) store key-value pairs — the structure that maps most directly onto JSON data and database rows used later in Django."
+                }
+              ],
+              "quiz": {
+                "question": "What is the key difference between a Python list and a tuple?",
+                "options": [
+                  "Tuples can only hold numbers",
+                  "A list is mutable (can be changed); a tuple is immutable (cannot be changed after creation)",
+                  "Lists are always faster",
+                  "There is no difference"
+                ],
+                "correct_index": 1,
+                "explanation": "Lists can be modified after creation (adding/removing/changing items), while tuples are fixed once created — useful when data shouldn't change."
+              }
+            }
+          ]
+        },
+        {
+          "id": "u5_m2",
+          "title": "OOP & Advanced Python",
+          "description": "Object-oriented programming, file handling, and connecting Python to a database.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u5_m2_l1",
+              "title": "Object-Oriented Programming",
+              "cards": [
+                {
+                  "id": "u5_m2_l1_c1",
+                  "title": "Classes & Objects",
+                  "body": "A class is a blueprint ('class Student:'); an object is a specific instance created from it. '__init__' is the constructor, running automatically when an object is created, typically to set instance variables ('self.name = name'). This exact pattern is what Django Models are built on."
+                },
+                {
+                  "id": "u5_m2_l1_c2",
+                  "title": "Inheritance & Polymorphism",
+                  "body": "A child class can inherit from a parent ('class Graduate(Student):'), reusing and extending its behavior. Polymorphism lets different classes respond differently to the same method call. Encapsulation bundles data and behavior together inside a class, controlling what's exposed externally."
+                }
+              ],
+              "quiz": {
+                "question": "What is the purpose of the '__init__' method in a Python class?",
+                "options": [
+                  "It deletes the object when no longer needed",
+                  "It's the constructor, automatically running when a new object is created to set up initial state",
+                  "It only runs when the program ends",
+                  "It's optional and rarely used"
+                ],
+                "correct_index": 1,
+                "explanation": "'__init__' is Python's constructor method, automatically called to initialize a new object's attributes right when it's created."
+              }
+            },
+            {
+              "id": "u5_m2_l2",
+              "title": "File Handling & Database Connectivity",
+              "cards": [
+                {
+                  "id": "u5_m2_l2_c1",
+                  "title": "Files, Modules & Virtual Environments",
+                  "body": "'with open('file.txt') as f:' safely reads/writes files, automatically closing them afterward. 'import module_name' brings in reusable code; 'pip install package' installs third-party packages. A virtual environment ('python -m venv env') isolates a project's dependencies from the system Python — essential practice before installing Django."
+                },
+                {
+                  "id": "u5_m2_l2_c2",
+                  "title": "Connecting Python to MySQL",
+                  "body": "Using a library like 'mysql-connector-python', Python can open a database connection, execute SQL via a cursor ('cursor.execute(\"SELECT * FROM students\")'), and fetch results. Parameterized queries ('cursor.execute(query, (value,))') prevent SQL injection by never directly concatenating user input into SQL strings — the same principle Django's ORM automates for you."
+                }
+              ],
+              "quiz": {
+                "question": "Why are parameterized queries important when connecting Python to a database?",
+                "options": [
+                  "They make queries run slower on purpose",
+                  "They prevent SQL injection by never directly concatenating user input into the SQL string",
+                  "They are required by MySQL's licensing",
+                  "They only work with text data"
+                ],
+                "correct_index": 1,
+                "explanation": "Parameterized queries separate the SQL structure from user-supplied values, so malicious input can never be interpreted as part of the SQL command itself."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_06",
+      "title": "Module 6: MySQL",
+      "description": "Relational database design and SQL — from single tables to joins, normalization, and security.",
+      "modules": [
+        {
+          "id": "u6_m1",
+          "title": "Database Fundamentals & SQL",
+          "description": "Relational concepts and the core commands that create, read, update, and delete data.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u6_m1_l1",
+              "title": "Relational Database Concepts",
+              "cards": [
+                {
+                  "id": "u6_m1_l1_c1",
+                  "title": "Tables, Keys & Relationships",
+                  "body": "A relational database organizes data into tables (rows and columns). A Primary Key uniquely identifies each row (e.g. student_id); a Foreign Key in one table references a Primary Key in another, creating relationships between tables — like a 'course_id' column in an Enrollments table pointing back to the Courses table."
+                },
+                {
+                  "id": "u6_m1_l1_c2",
+                  "title": "DDL: Creating & Altering Tables",
+                  "body": "'CREATE TABLE students (id INT PRIMARY KEY, name VARCHAR(100))' defines a new table's structure. 'ALTER TABLE students ADD COLUMN email VARCHAR(100)' modifies an existing table. 'DROP TABLE students' permanently deletes it — these Data Definition Language (DDL) commands shape the database's structure itself."
+                }
+              ],
+              "quiz": {
+                "question": "What is the purpose of a Foreign Key in a relational database?",
+                "options": [
+                  "To encrypt sensitive columns",
+                  "To reference a Primary Key in another table, creating a relationship between tables",
+                  "To speed up every query automatically",
+                  "To rename a table"
+                ],
+                "correct_index": 1,
+                "explanation": "A Foreign Key links a row in one table to a specific row in another table by referencing that table's Primary Key, enforcing relational integrity."
+              }
+            },
+            {
+              "id": "u6_m1_l2",
+              "title": "DML, Filtering & Aggregation",
+              "cards": [
+                {
+                  "id": "u6_m1_l2_c1",
+                  "title": "INSERT, UPDATE, DELETE & SELECT",
+                  "body": "'INSERT INTO students VALUES (1, \"Alice\")' adds a row. 'UPDATE students SET name=\"Bob\" WHERE id=1' modifies existing rows. 'DELETE FROM students WHERE id=1' removes rows. 'SELECT name FROM students WHERE id=1' retrieves data — together these Data Manipulation Language (DML) commands are the core CRUD operations every application performs."
+                },
+                {
+                  "id": "u6_m1_l2_c2",
+                  "title": "Filtering, Sorting & Aggregation",
+                  "body": "WHERE filters rows by a condition ('WHERE age > 18'); LIKE matches text patterns ('WHERE name LIKE \"A%\"'); ORDER BY sorts results. GROUP BY groups rows for aggregate functions like COUNT(), SUM(), and AVG() — e.g. 'SELECT department, COUNT(*) FROM employees GROUP BY department' counts employees per department in one query."
+                }
+              ],
+              "quiz": {
+                "question": "Which SQL clause is used to group rows together so aggregate functions like COUNT() or AVG() can be applied per group?",
+                "options": [
+                  "WHERE",
+                  "ORDER BY",
+                  "GROUP BY",
+                  "HAVING"
+                ],
+                "correct_index": 2,
+                "explanation": "GROUP BY collects rows sharing a common value into groups, letting aggregate functions calculate a result for each group separately."
+              }
+            }
+          ]
+        },
+        {
+          "id": "u6_m2",
+          "title": "Joins, Advanced SQL & Design",
+          "description": "Combining tables, database design principles, and protecting data.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u6_m2_l1",
+              "title": "Joins & Subqueries",
+              "cards": [
+                {
+                  "id": "u6_m2_l1_c1",
+                  "title": "INNER JOIN & LEFT JOIN",
+                  "body": "INNER JOIN returns only rows that match in both tables ('SELECT * FROM orders INNER JOIN customers ON orders.customer_id = customers.id'). LEFT JOIN returns all rows from the left table plus matching rows from the right (with NULLs where no match exists) — essential for combining related data across the normalized tables this module teaches you to design."
+                },
+                {
+                  "id": "u6_m2_l1_c2",
+                  "title": "Subqueries & Views",
+                  "body": "A subquery nests one SELECT inside another ('SELECT name FROM students WHERE id IN (SELECT student_id FROM enrollments WHERE course_id=5)'). A VIEW saves a query as a reusable virtual table, simplifying complex, frequently-used queries into a single readable name."
+                }
+              ],
+              "quiz": {
+                "question": "What is the key difference between INNER JOIN and LEFT JOIN?",
+                "options": [
+                  "They produce identical results always",
+                  "INNER JOIN returns only matching rows from both tables; LEFT JOIN returns all rows from the left table even without a match",
+                  "LEFT JOIN only works on two-column tables",
+                  "INNER JOIN is always faster in every scenario"
+                ],
+                "correct_index": 1,
+                "explanation": "INNER JOIN excludes rows without a match in both tables, while LEFT JOIN keeps every row from the left table regardless of whether a match exists in the right table."
+              }
+            },
+            {
+              "id": "u6_m2_l2",
+              "title": "Normalization & Security",
+              "cards": [
+                {
+                  "id": "u6_m2_l2_c1",
+                  "title": "Database Normalization",
+                  "body": "Normalization organizes tables to reduce data duplication and inconsistency. 1NF requires atomic values (no lists in a single cell). 2NF removes partial dependencies on part of a composite key. 3NF removes transitive dependencies (columns depending on other non-key columns). Well-normalized design is what ER diagrams model before tables are created."
+                },
+                {
+                  "id": "u6_m2_l2_c2",
+                  "title": "SQL Injection & Transactions",
+                  "body": "SQL Injection exploits unsanitized user input concatenated directly into SQL queries — parameterized queries prevent it entirely. Transactions group multiple statements so they succeed or fail together: 'COMMIT' saves all changes, 'ROLLBACK' undoes them if something goes wrong mid-transaction, critical for operations like transferring money between two accounts."
+                }
+              ],
+              "quiz": {
+                "question": "What does a database transaction's ROLLBACK command do?",
+                "options": [
+                  "Permanently saves all recent changes",
+                  "Undoes all changes made since the transaction began, if something went wrong",
+                  "Creates a new table",
+                  "Deletes the entire database"
+                ],
+                "correct_index": 1,
+                "explanation": "ROLLBACK reverts every change made within the current transaction, ensuring a multi-step operation either fully completes or leaves no partial changes behind."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_07",
+      "title": "Module 7: Django",
+      "description": "Complete backend development — MVT architecture, models, forms, authentication, REST APIs, security, and deployment.",
+      "modules": [
+        {
+          "id": "u7_m1",
+          "title": "Django Fundamentals",
+          "description": "MVT architecture, project setup, URL routing, views, and templates.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u7_m1_l1",
+              "title": "MVT Architecture & Project Setup",
+              "cards": [
+                {
+                  "id": "u7_m1_l1_c1",
+                  "title": "Model-View-Template (MVT)",
+                  "body": "Django organizes code into Models (database structure/logic), Views (request-handling logic that decides what data to show), and Templates (HTML that renders that data). This is Django's take on the classic MVC pattern — Models talk to MySQL, Views connect Models to Templates, and Templates generate the final HTML sent to the browser."
+                },
+                {
+                  "id": "u7_m1_l1_c2",
+                  "title": "Project & App Structure",
+                  "body": "'django-admin startproject myproject' creates the overall project (settings, URLs). 'python manage.py startapp accounts' creates a reusable app within it (e.g. accounts, courses, orders). A Django project is a collection of apps, each handling one focused piece of functionality — always built inside an isolated virtual environment."
+                }
+              ],
+              "quiz": {
+                "question": "In Django's MVT architecture, what is the role of the 'View'?",
+                "options": [
+                  "It stores the database schema",
+                  "It contains the HTML markup",
+                  "It contains the request-handling logic that decides what data to fetch and which template to render",
+                  "It only handles CSS styling"
+                ],
+                "correct_index": 2,
+                "explanation": "The View is the logic layer — it receives a request, interacts with Models to get data, and passes that data to a Template to generate the response."
+              }
+            },
+            {
+              "id": "u7_m1_l2",
+              "title": "URLs, Views & Templates",
+              "cards": [
+                {
+                  "id": "u7_m1_l2_c1",
+                  "title": "URL Routing & Views",
+                  "body": "'urlpatterns = [path('students/', views.student_list, name='student_list')]' maps a URL to a view function. A function-based view ('def student_list(request):') receives the request, queries data, and returns 'render(request, 'students.html', {'students': students})' to display it."
+                },
+                {
+                  "id": "u7_m1_l2_c2",
+                  "title": "Django Template Language",
+                  "body": "Templates use '{{ variable }}' to output data and '{% tag %}' for logic like '{% for student in students %}...{% endfor %}'. 'extends' and 'block' enable template inheritance — a shared base.html layout that every page extends, avoiding repeated header/footer HTML across the whole site."
+                }
+              ],
+              "quiz": {
+                "question": "What Django Template Language feature lets multiple pages share a common base layout (like header/footer)?",
+                "options": [
+                  "The {{ }} variable syntax",
+                  "Template inheritance using 'extends' and 'block'",
+                  "The urlpatterns list",
+                  "The migrate command"
+                ],
+                "correct_index": 1,
+                "explanation": "Template inheritance lets a child template 'extend' a base template and override specific 'block' sections, avoiding duplicated layout HTML across every page."
+              }
+            }
+          ]
+        },
+        {
+          "id": "u7_m2",
+          "title": "Models, Forms & Authentication",
+          "description": "Talking to MySQL through the ORM, handling forms, and securing the application with user accounts.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u7_m2_l1",
+              "title": "Django ORM & Migrations",
+              "cards": [
+                {
+                  "id": "u7_m2_l1_c1",
+                  "title": "Models & Migrations",
+                  "body": "A Django Model ('class Student(models.Model): name = models.CharField(max_length=100)') defines a database table in Python, without writing raw SQL. 'python manage.py makemigrations' generates a migration file describing the change; 'python manage.py migrate' applies it to MySQL, creating or updating the actual table."
+                },
+                {
+                  "id": "u7_m2_l1_c2",
+                  "title": "ORM Queries & Relationships",
+                  "body": "'Student.objects.all()' (SELECT *), '.filter(age__gt=18)' (WHERE age > 18), '.get(id=1)' (single row) — the ORM translates Python into SQL automatically, safely parameterized against injection. ForeignKey, OneToOneField, and ManyToManyField model relationships between models, mirroring the joins learned in the MySQL module."
+                }
+              ],
+              "quiz": {
+                "question": "What is the purpose of Django's 'makemigrations' and 'migrate' commands?",
+                "options": [
+                  "They start the development server",
+                  "makemigrations generates a description of model changes; migrate applies those changes to the actual database",
+                  "They only work with SQLite, never MySQL",
+                  "They delete the entire database"
+                ],
+                "correct_index": 1,
+                "explanation": "makemigrations creates a migration file recording what changed in your models; migrate then executes the corresponding SQL against the connected database (MySQL)."
+              }
+            },
+            {
+              "id": "u7_m2_l2",
+              "title": "Forms, Authentication & Admin",
+              "cards": [
+                {
+                  "id": "u7_m2_l2_c1",
+                  "title": "ModelForms & CSRF Protection",
+                  "body": "A ModelForm ('class StudentForm(forms.ModelForm):') auto-generates a form directly from a Model, including validation. Every Django form template must include '{% csrf_token %}' — Django's built-in Cross-Site Request Forgery protection, which rejects POST requests missing a valid, matching token."
+                },
+                {
+                  "id": "u7_m2_l2_c2",
+                  "title": "Authentication & the Admin Panel",
+                  "body": "Django's built-in auth system handles user registration, login/logout, and password hashing automatically — never store plain-text passwords. '@login_required' restricts views to authenticated users. 'python manage.py createsuperuser' plus registering a model in admin.py instantly generates a full CRUD admin interface with zero extra code."
+                }
+              ],
+              "quiz": {
+                "question": "What does the '{% csrf_token %}' template tag protect against?",
+                "options": [
+                  "SQL injection",
+                  "Cross-Site Request Forgery — forged POST requests from outside the actual site",
+                  "Slow page load times",
+                  "Broken images"
+                ],
+                "correct_index": 1,
+                "explanation": "The CSRF token ensures a form submission actually originated from your own site, rejecting forged requests that don't include a matching, valid token."
+              }
+            }
+          ]
+        },
+        {
+          "id": "u7_m3",
+          "title": "Django Advanced & Deployment",
+          "description": "REST APIs, security hardening, and taking a Django application to production.",
+          "is_pro": false,
+          "lessons": [
+            {
+              "id": "u7_m3_l1",
+              "title": "REST APIs with Django REST Framework",
+              "cards": [
+                {
+                  "id": "u7_m3_l1_c1",
+                  "title": "REST API Concepts",
+                  "body": "A REST API exposes data over HTTP using standard methods: GET (read), POST (create), PUT/PATCH (update), DELETE (remove) — each returning JSON. This is exactly what a JavaScript frontend calls via fetch() to load or submit data without a full page reload, the bridge connecting the Frontend and Backend modules of this course."
+                },
+                {
+                  "id": "u7_m3_l1_c2",
+                  "title": "Django REST Framework (DRF)",
+                  "body": "DRF's 'Serializer' converts Model instances to/from JSON automatically (similar to how ModelForm works for HTML forms). A 'ModelViewSet' combined with a router auto-generates full CRUD API endpoints for a model in just a few lines, with built-in support for authentication and permissions per endpoint."
+                }
+              ],
+              "quiz": {
+                "question": "In a REST API, which HTTP method is conventionally used to update an existing resource?",
+                "options": [
+                  "GET",
+                  "POST",
+                  "PUT/PATCH",
+                  "DELETE"
+                ],
+                "correct_index": 2,
+                "explanation": "PUT (full update) and PATCH (partial update) are the conventional REST methods for modifying an existing resource, as opposed to POST (create) or DELETE (remove)."
+              }
+            },
+            {
+              "id": "u7_m3_l2",
+              "title": "Security & Deployment",
+              "cards": [
+                {
+                  "id": "u7_m3_l2_c1",
+                  "title": "Django Security Essentials",
+                  "body": "Never commit SECRET_KEY or database passwords to source control — load them from environment variables instead. 'DEBUG = False' in production hides sensitive error details from visitors. Django auto-escapes template variables to prevent XSS, and the ORM's parameterized queries prevent SQL injection by design."
+                },
+                {
+                  "id": "u7_m3_l2_c2",
+                  "title": "Going to Production",
+                  "body": "'pip freeze > requirements.txt' locks exact dependency versions for deployment. 'python manage.py collectstatic' gathers all static files (CSS/JS/images) into one folder for the production web server to serve. A WSGI server (like Gunicorn) runs the actual Django application behind a web server (like Gginx) in production — very different from the built-in development server used while coding."
+                }
+              ],
+              "quiz": {
+                "question": "Why should 'DEBUG' be set to 'False' in a production Django deployment?",
+                "options": [
+                  "It makes the site load faster",
+                  "DEBUG = True exposes sensitive error details and internal code/settings to visitors when something goes wrong",
+                  "It's required to connect to MySQL",
+                  "It has no security implications"
+                ],
+                "correct_index": 1,
+                "explanation": "With DEBUG=True, unhandled errors display detailed stack traces and settings to anyone visiting the site — a serious information disclosure risk in production."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
