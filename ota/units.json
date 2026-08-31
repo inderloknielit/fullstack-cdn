@@ -1,116 +1,5 @@
 {
-
-  "version": 1,
-  "course_info": {
-    "title": "Full Stack Development Course",
-    "overview": "A 390-hour, industry-oriented Full Stack Development course taking learners from foundational web concepts through complete application development using HTML, CSS, JavaScript, Bootstrap, Python, MySQL, and Django. Learners integrate all seven technologies into one deployed capstone project.",
-    "objectives": [
-      "Build semantic, accessible HTML websites and responsive CSS/Bootstrap layouts.",
-      "Develop interactive frontend behavior using modern JavaScript.",
-      "Program backend application logic using Python and object-oriented design.",
-      "Design and query relational databases using MySQL.",
-      "Develop complete, database-driven web applications using Django (MVT, ORM, auth, admin).",
-      "Integrate frontend, backend, and database into one working Full Stack application.",
-      "Apply core web security practices (CSRF, XSS, SQL injection prevention, secure configuration).",
-      "Deploy a Full Stack application to a production-ready environment."
-    ],
-    "target_group": [
-      "Students",
-      "Graduates",
-      "Diploma holders",
-      "IT beginners",
-      "Candidates seeking entry-level Full Stack Developer roles"
-    ],
-    "entry_requirements": [
-      "Basic computer literacy",
-      "Basic understanding of using a web browser and file system",
-      "No prior programming experience required"
-    ],
-    "duration_hours": 390,
-    "course_level": "Beginner to Intermediate",
-    "training_approach": {
-      "theory_percent": 30,
-      "practical_percent": 70,
-      "components": [
-        "Module-wise coding exercises",
-        "Lab assignments",
-        "Mini projects",
-        "Capstone Full Stack Project",
-        "Debugging and problem-solving exercises",
-        "Industry-oriented development practices"
-      ]
-    }
-  },
-  "hour_distribution": [
-    {
-      "module": "Module 1",
-      "topic": "HTML",
-      "theory_hours": 8,
-      "practical_hours": 17,
-      "total_hours": 25
-    },
-    {
-      "module": "Module 2",
-      "topic": "CSS",
-      "theory_hours": 10,
-      "practical_hours": 20,
-      "total_hours": 30
-    },
-    {
-      "module": "Module 3",
-      "topic": "JavaScript",
-      "theory_hours": 18,
-      "practical_hours": 42,
-      "total_hours": 60
-    },
-    {
-      "module": "Module 4",
-      "topic": "Bootstrap",
-      "theory_hours": 8,
-      "practical_hours": 17,
-      "total_hours": 25
-    },
-    {
-      "module": "Module 5",
-      "topic": "Python",
-      "theory_hours": 18,
-      "practical_hours": 42,
-      "total_hours": 60
-    },
-    {
-      "module": "Module 6",
-      "topic": "MySQL",
-      "theory_hours": 15,
-      "practical_hours": 35,
-      "total_hours": 50
-    },
-    {
-      "module": "Module 7",
-      "topic": "Django",
-      "theory_hours": 20,
-      "practical_hours": 50,
-      "total_hours": 70
-    },
-    {
-      "module": "—",
-      "topic": "Capstone Full Stack Project",
-      "theory_hours": 0,
-      "practical_hours": 40,
-      "total_hours": 40
-    },
-    {
-      "module": "—",
-      "topic": "Assessment & Evaluation (module tests, mid-term, final, viva)",
-      "theory_hours": 10,
-      "practical_hours": 20,
-      "total_hours": 30
-    }
-  ],
-  "hour_distribution_summary": {
-    "total_hours": 390,
-    "total_theory_hours": 107,
-    "total_practical_hours": 283
-  },
+  "version": 2,
   "units": [
     {
       "id": "unit_01",
@@ -122,6 +11,7 @@
           "title": "HTML Fundamentals & Structure",
           "description": "How the web works, and the building blocks of every HTML page.",
           "is_pro": false,
+          "video_id": "dQw4w9WgXcQ",
           "lessons": [
             {
               "id": "u1_m1_l1",
