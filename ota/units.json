@@ -1,9 +1,9 @@
 {
-  "version": 2,
+  "version": 3,
   "units": [
     {
       "id": "unit_01",
-      "title": "Module 1: HTML",
+      "title": "Module 1: HTML and its basics",
       "description": "From the basics of the web to semantic, accessible, SEO-friendly HTML5 markup.",
       "modules": [
         {
